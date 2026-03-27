@@ -46,4 +46,3 @@ input_data = pd.DataFrame(
 preprocessed_arr = loaded_preprocessor.transform(input_data)
 st.write("Customer not likely to churn" if model_tf.predict(preprocessed_arr)[0][0] <=0.5 else "Customer likely to churn")
 
-"Introduction to python collections part I (List_set_tuples_dictionaries extended)"
