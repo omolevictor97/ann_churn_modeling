@@ -1,0 +1,10 @@
+tensorflow==2.15.0
+pandas
+ipykernel
+numpy
+scikit-learn
+tensorboard
+matplotlib
+streamlit
+fastapi
+uvicorno
